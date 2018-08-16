@@ -21,7 +21,7 @@ public  class Main {
 //		columns = input.nextInt();
 		
 		//Creates a rows x columns size game.
-		Battleship game = new Battleship(5,5);
+		Battleship game = new Battleship(5,5,5);
 //		Battleship game = new Battleship(rows,columns);
 		/*
 		 * TODO: 
@@ -30,6 +30,14 @@ public  class Main {
 		 * 4. Check if hit or missed.
 		 * 5. Update and respond.
 		 */
+		
+		try {
+			game.addShip(2, 4, 2, "H");
+			game.addShip(2, 3, 1, "V");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		game.print();
 		
 		
