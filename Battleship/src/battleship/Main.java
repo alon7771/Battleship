@@ -25,7 +25,7 @@ public  class Main {
 //		Battleship game = new Battleship(rows,columns);
 		/*
 		 * TODO: 
-		 * 2. Add ships.
+		 * 
 		 * 3. Guess a ship location.
 		 * 4. Check if hit or missed.
 		 * 5. Update and respond.
