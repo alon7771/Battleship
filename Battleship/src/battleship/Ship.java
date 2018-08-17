@@ -2,8 +2,8 @@ package battleship;
 
 public class Ship {
 	
-	int begin, end, lives, permanent;
-	String type;
+	private int begin, end, lives, constant;
+	private char type;
 
 
 	public Ship(int begin, int end) {
@@ -14,11 +14,11 @@ public class Ship {
 	}
 
 
-	public Ship(int begin, int end,int permanent,  String type) {
+	public Ship(int begin, int end,int constant,  char type) {
 		super();
 		this.begin = begin;
 		this.end = end;
-		this.permanent = permanent;
+		this.constant = constant;
 		this.lives =  end - begin;
 		this.type = type;
 	}
@@ -39,7 +39,7 @@ public class Ship {
 	}
 
 
-	public String getType() {
+	public char getType() {
 		return type;
 	}
 
