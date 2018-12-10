@@ -1,0 +1,7 @@
+This file system contains directories and files.
+Each name is unique. 
+The functions are:
+-Add file
+-Add directory
+-Delete
+-Show file system
